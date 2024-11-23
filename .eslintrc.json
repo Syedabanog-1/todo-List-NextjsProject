@@ -1,0 +1,15 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "react/prop-types": "off",
+    "no-undef": "off",
+    "no-restricted-imports": "off",
+    "react/jsx-no-target-blank": "off",
+    "no-debugger": "off",
+    "import/no-anonymous-default-export": "off"
+  }
+}
